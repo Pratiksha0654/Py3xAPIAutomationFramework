@@ -120,4 +120,5 @@ formatted
 
 .venv
 .venv/*
+.env
 

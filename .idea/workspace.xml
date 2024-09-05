@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d7fd3b8-4be1-43b6-b065-609c2b7f2808" name="Changes" comment="">
+    <list default="true" id="1d7fd3b8-4be1-43b6-b065-609c2b7f2808" name="Changes" comment="added again">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/api_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants/api_constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/api_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/api_constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/api_requests_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/common_verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/common_verification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/tests/crud/test_create_booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests/crud/test_create_booking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +59,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_positive.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/bhosa/PycharmProjects/Py3xAPIAutomationFramework"
+    "last_opened_file_path": "C:/Users/bhosa/PycharmProjects/Python3XATB_PB/EX_Jul_PytestAPIAutomation"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhosa\PycharmProjects\Py3xAPIAutomationFramework\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_positive">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Py3xAPIAutomationFramework" />
       <option name="ENV_FILES" value="" />
@@ -84,6 +94,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_create_booking.TestCreateBooking.test_create_booking_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py3xAPIAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/tests/crud" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_create_booking.TestCreateBooking.test_create_booking_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_create_booking.TestCreateBooking.test_create_booking_positive" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -101,7 +131,20 @@
       <option name="presentableId" value="Default" />
       <updated>1722821858099</updated>
     </task>
+    <task id="LOCAL-00001" summary="added again">
+      <option name="closed" value="true" />
+      <created>1725016832117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725016832117</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added again" />
+    <option name="LAST_COMMIT_MESSAGE" value="added again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
