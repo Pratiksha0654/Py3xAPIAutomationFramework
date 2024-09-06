@@ -30,4 +30,5 @@ pytest tests/tests/crud/test_create_booking.py --alluredir=allure_result -s
 allure serve allure_result
 http://192.168.50.20:60918/index.html
 
+![image](https://github.com/user-attachments/assets/31b498b1-979b-4f95-891f-cf26b6061f8f)
 
